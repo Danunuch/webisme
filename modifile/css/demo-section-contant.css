@@ -1,0 +1,81 @@
+#section-option{
+  padding: 30px 0px;
+}
+
+#section-option h2{
+  font-size: 40px;
+  margin-bottom: 0px;
+  color: #666666;
+}
+
+#section-option h3{
+  font-size: 20px;
+  font-weight: 400; 
+  margin-bottom: 0px;
+  color: #999999;
+}
+
+
+#section-demo .nav-demo{
+  background: #15511D;
+  padding: 15px 0px;
+}
+
+
+#section-demo  .sticky {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+}
+
+#section-demo  .sticky + .content {
+  padding-top: 139px;
+}
+
+#section-demo h4{
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+
+#section-demo h4 span{
+  font-size: 16px;
+font-weight: 300;
+display: block;
+color: #00D8D8;
+}
+
+
+#section-demo p.res {
+    font-size: 14px;
+    display: inline-block;
+    padding: 3px 10px;
+    margin-bottom: 0px;
+    margin-top: 11px;
+    color: #ffffff;
+    border-radius: 20px;
+    background: #999999;
+}
+
+#section-demo .btn{
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+
+@media (max-width: 1024px){
+
+}
+
+
+@media (max-width: 768px){
+
+}
+
+
+@media (max-width: 414px){
+
+}

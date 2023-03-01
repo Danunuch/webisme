@@ -1,0 +1,80 @@
+/*
+Custom Style
+=========================== */
+nav {
+	/*border-bottom: solid 1px #efefef;*/
+	min-height: 60px;
+	background: #DF1A22;
+	z-index: 1;
+}
+
+nav .wrap-core-nav-list,
+nav .nav-header {
+	/*background: #fff;*/
+}
+
+nav .brand {
+	display: block;
+	position: relative;
+	width: 170px;
+	top: 20px;
+}
+
+nav .brand img {
+	width: 100%;
+}
+
+nav .menu li a {
+	display: block;
+	padding: 20px 25px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav .menu li.active > a,
+nav .menu li a:hover {
+	color: #ffffff;
+	background: #006d30;
+}
+
+nav button {
+	background: transparent;
+	border: none;
+	outline: none;
+}
+
+@media (max-width: 992px) {
+	nav .full-container,
+	nav .nav-container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	nav .nav-header {
+		min-height: 60px;
+	}
+
+	nav .nav-header .brand {
+		margin: 0 auto 5px;
+		float: none;
+	}
+
+	nav .nav-header .toggle-bar {
+		font-family: 'Prompt', sans-serif;
+		font-size: 18px;
+		position: absolute;
+		top: 17px;
+		left: 15px;
+	}
+
+	nav .menu li a {
+		padding: 18px 10px;
+		border-bottom: solid 1px #0a5a2c;
+	}
+
+	nav .menu li:last-child a {
+		/*border-bottom: none;*/
+	}
+}
+/* =========================== */

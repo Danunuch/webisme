@@ -1,0 +1,232 @@
+/*#bg-header {
+  background-image: url("../images/bg-header.png");
+  background-image: -webkit-image-set(
+    url(../images/bg-header.png) 1x,
+    url(../images/bg-header.png) 2x
+  );
+  background-image: image-set(
+    url(../images/bg-header.png) 1x,
+    url(../images/bg-header.png) 2x
+  );
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 15px 0px;
+}
+*/
+
+#section-header {
+  padding-top: 30px;
+}
+
+
+#section-header h1{
+  color: #218C00;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#section-header h2{
+  color: #DF1920;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+#section-header h2 span{
+  border-bottom: solid 1px #DF1920; 
+}
+
+#section-header h3{
+  color: #777777;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  display: inline-block;
+  
+}
+
+
+#section-header h4{
+  color: #777777;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  display: inline-block;
+  
+}
+
+
+
+
+
+
+#section-header .fa-phone-volume{
+  color: #000000;
+  -ms-transform: rotate(-25deg); /* IE 9 */
+  -webkit-transform: rotate(-25deg); /* Safari 3-8 */
+  transform: rotate(-25deg);
+}
+
+#section-header h3 a, h4 a{
+  color: #DF1921;
+  font-weight: 500;
+}
+
+
+#section-header .box-register{
+  padding: 15px 20px;
+  position: relative;
+  z-index: 5;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  line-height: 24px;
+  font-size: 18px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  background: #FFC20E;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #000000;
+-webkit-box-shadow: 0px 17px 17px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 17px 17px -15px rgba(0,0,0,0.75);
+box-shadow: 0px 17px 17px -15px rgba(0,0,0,0.75);
+  -webkit-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+
+
+#section-header .box-register:hover{
+  background: #333333;
+ color: #FFC20E;
+}
+
+
+.box-register span{
+  border-bottom: solid 1px #000000; 
+    -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.box-register:hover span{
+  border-bottom: solid 1px #FFC20E; 
+}
+
+
+#section-header .box-line {
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    background: transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #228c00;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+#section-header .box-line:hover {
+    color: #40c005;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 414px) {
+  #section-header h1 {
+    color: #218C00;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#section-header h2 {
+    color: #DF1920;
+    font-size: 14px;
+    font-weight: 400;
+        line-height: 30px;
+}
+#section-header h3 {
+    color: #777777;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    display: inline-block;
+}
+#section-header h4 {
+    color: #777777;
+    font-size: 12px;
+    margin-top: 0px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    display: inline-block;
+}
+#section-header .box-line {
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    background: transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #228c00;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#section-header .box-register {
+    padding: 16px 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    background: #FFC20E;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #000000;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+}
+

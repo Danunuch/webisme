@@ -1,0 +1,116 @@
+  table.table-res {
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  table.table-res tr:nth-child(1n+0) {
+    background: #EEEEEE;
+    padding: 2px;
+  }
+
+    table.table-res tr:nth-child(2n+0) {
+    background: #ffffff;
+    padding: 2px;
+  }
+
+  table.table-res th{
+    padding: 10px;
+    border: 3px solid #ffffff;
+  }
+
+   table.table-res td {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  table.table-res th:nth-child(1n+0) {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:400;
+    font-size: 20px;
+    background: #ffffff;
+    text-align: left;
+    color:#777777;
+  }
+
+
+    table.table-res th:nth-child(1n+0) {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:400;
+    font-size: 20px;
+    background: #ffffff;
+    text-align: left;
+    color:#777777;
+  }
+
+      table.table-res th:nth-child(2n+0) {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:500;
+    font-size: 20px;
+    background: #85B200;
+    text-align: center;
+    color:#ffffff;
+  }
+
+      table.table-res th:nth-child(3n+0) {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:500;
+    font-size: 20px;
+    background: #D90000;
+    text-align: center;
+    color:#ffffff;
+  }
+
+
+table.table-res th span.small{
+font-size: 15px;
+font-weight: 300;
+}
+
+table.table-res th span.yallow{
+font-weight: 600;
+color: #FFFF26;
+}
+
+
+
+  .bt-table-total {
+    border:1px solid #e8e8e8;
+    background:#f2f2f2;
+  }
+  
+  /*-----------2222----------*/
+  table.table-res2 {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  table.table-res2 tr {
+    border: 1px solid #efefef;
+    padding: 2px;
+  }
+
+  table.table-res2 th, table.table-res2 td {
+    padding: 10px;
+    border: 0px solid #e8e8e8;
+    background:#fff;
+    text-align:center;
+  }
+
+  table.table-res2 th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:100;
+    color:#fff;
+    background:#ccb066;
+  }

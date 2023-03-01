@@ -1,0 +1,178 @@
+#section-footer {
+ padding: 30px 0px;
+ background: #F3F9F0;
+}
+
+#section-footer h3{
+  font-size: 25px;
+  color: #DF1921;
+  margin-bottom: 0px;
+}
+
+#section-footer ul{
+  list-style: none;
+  padding-inline-start: 0px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#section-footer ul li{
+  color: #666666;
+}
+
+
+.box-footer-contact {
+  padding: 15px;
+}
+
+
+.box-footer-contact::before {
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  font-size: 20px;
+  left: 10px;
+  top: 0;
+  font-weight: 900;
+  content: "\f053";
+  color: #DF1921;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.box-footer-contact::after {
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  font-size: 20px;
+  left: 10px;
+  bottom: 0;
+  font-weight: 900;
+  content: "\f053";
+  color: #DF1921;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+.box-footer-contact h4{
+  font-size: 18px;
+  color: #DF191F;
+}
+
+.box-footer-contact p{
+  font-size: 14px;
+  color: #468C00;
+}
+
+
+#section-footer .box-footer-contact ul{
+  padding-inline-start: 30px;
+  font-size: 14px;
+    line-height: 24px;
+}
+
+#section-footer .box-footer-contact ul li{
+  margin: 5px 0px;
+  color: #DF1921;
+}
+
+
+
+
+
+#section-footer .box-footer-contact ul li:nth-child(3){
+  margin: 5px 0px;
+  color: #468C00;
+}
+
+#section-footer .box-footer-contact ul li:nth-child(1)::before {
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  font-size: 25px;
+  left: 30px;
+  font-weight: 900;
+  content: "\f2a0";
+  color: #393636;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+#section-footer .box-footer-contact ul li:nth-child(2)::before {
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  font-size: 25px;
+  left: 30px;
+  margin-top: 8px;
+  font-weight: 900;
+  content: "\f3cd";
+  color: #393636;
+}
+
+
+#section-footer .box-footer-contact ul li:nth-child(3)::before {
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  font-size: 20px;
+  left: 30px;
+  font-weight: 400;
+  content: "\f0e0";
+  color: #393636;
+}
+
+
+
+
+
+
+
+
+
+
+#section-copy {
+ padding: 10px 0px;
+}
+
+#section-copy p{
+ font-size: 12px;
+ color: #878787;
+ margin-bottom: 0px;
+}
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    padding: 7px 0px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #006d30;
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 100%;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#back-to-top:hover {
+  background: #df1a22;
+  color: #ffffff;
+}
+#back-to-top.show {
+  opacity: 1;
+}
+#content {
+  height: 2000px;
+}

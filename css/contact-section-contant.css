@@ -1,0 +1,107 @@
+
+
+
+
+
+#section-contact{
+  padding: 60px 0px;
+}
+
+#section-contact h2{
+ font-size: 50px;
+ color: #DF1920;
+}
+
+#section-contact h2 span{
+  display: inline-block;
+  font-size: 25px;
+  color: #868686;
+}
+
+#section-contact h3 {
+ font-size: 30px;
+ margin-left: 180px;
+ color: #468C00;
+}
+
+#section-contact h4 {
+ font-size: 38px;
+ color: #006CD8;
+ margin-bottom: 30px;
+}
+
+#section-contact h5 {
+ font-size: 25px;
+ color: #228C00;
+}
+
+#section-contact p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #777777;
+}
+
+#section-contact .btn {
+  border-radius: 10px;
+}
+
+
+#section-contact label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 20px;
+  float: right;
+  color: #A1A1A1;
+  font-weight: 400;
+}
+
+#section-contact label span{
+  color: #DF1A22;
+}
+
+@media (max-width: 1024px){
+
+}
+
+
+@media (max-width: 768px){
+  #section-themes h2 {
+    font-size: 23px;
+    color: #666666;
+}
+  #section-e-commerce .box-e-commerce h4 {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 60px;
+}
+#section-e-commerce h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #DF1920;
+}
+#section-contact h2 {
+    font-size: 38px;
+    color: #DF1920;
+}
+#section-contact h3 {
+    font-size: 18px;
+    margin-left: 0px;
+    color: #468C00;
+}
+#section-contact label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-size: 20px;
+    float: left;
+    color: #A1A1A1;
+    font-weight: 400;
+}
+
+}
+
+
+@media (max-width: 414px){
+
+}

@@ -1,0 +1,166 @@
+
+
+
+#section-register{
+  padding: 60px 0px;
+}
+
+#section-register h2{
+ font-size: 50px;
+ color: #468C00;
+}
+
+#section-register h2 span{
+  display: inline-block;
+  font-size: 25px;
+  color: #868686;
+}
+
+#section-register h3 {
+ font-size: 18px;
+ color: #999999;
+}
+
+
+#section-register .box-form{
+  background: #F4F4F4;
+  padding: 60px 30px;
+}
+
+
+#section-register .input-group-addon {
+    padding: 6px 6px;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#section-register h4 {
+ font-size: 38px;
+ color: #006CD8;
+ margin-bottom: 30px;
+}
+
+#section-register h5 {
+ font-size: 25px;
+ color: #228C00;
+}
+
+#section-register p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #868686;
+}
+
+#section-register .btn {
+  border-radius: 10px;
+      font-size: 25px;
+}
+
+
+
+#section-register .form-control {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #414141;
+    border-radius: 0px;
+}
+
+#section-register .form-control {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #414141;
+    border-radius: 0px;
+}
+
+
+#section-register .form-group .btn {
+  font-size: 14px;
+      padding: 4px 10px;
+      margin-top: 10px; 
+  border-radius:20px;
+}
+
+#section-register .form-group .btn-success {
+    color: #333333;
+    background-color: transparent;
+    border-color: #238C00;
+}
+
+#section-register .form-group .btn-danger {
+  color: #333333;
+    background-color: transparent;
+    border-color: #DF1A22;
+}
+
+#section-register .form-group .btn-success:hover {
+    color: #ffffff;
+    background-color: #238C00;
+    border-color: #238C00;
+}
+
+#section-register .form-group .btn-danger:hover {
+  color: #ffffff;
+    background-color: #DF1A22;
+    border-color: #DF1A22;
+}
+
+#section-register .form-group label {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 15px;
+  font-size: 18px;
+  float: right;
+  color: #468C00;
+  font-weight: 400;
+}
+
+
+#section-register .checkbox label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 400;
+}
+
+#section-register .checkbox label a{
+  color: #468C00;
+}
+
+
+#section-register label span{
+  color: #DF1A22;
+}
+
+@media (max-width: 1024px){
+
+}
+
+
+@media (max-width: 768px){
+#section-register .form-group label {
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    float: left;
+    color: #468C00;
+    font-weight: 400;
+}
+#section-register .box-form {
+    background: #F4F4F4;
+    padding: 15px 15px;
+}
+}
+
+
+@media (max-width: 414px){
+
+}
